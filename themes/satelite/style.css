@@ -1248,7 +1248,7 @@ Primary use:	Showcase Portfolio
 	@media all and (min-width: 1025px) {
 	
 		.classic-menu nav {
-			position: fixed;
+			position: relative;
 			width: auto;
 			top: 0px;
 			-webkit-transition: all 0.2s ease-in-out 0.5s;
