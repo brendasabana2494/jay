@@ -259,7 +259,7 @@ Function First Load
 			$('#menu-burger').removeClass("open");
 			var tlMenu = new TimelineLite();
 			$(".fullscreen-menu .menu-timeline").each(function(index, element) {
-				tlMenu.to(element, 0.25, {y:-30, opacity:0, ease:Power2.easeIn}, index * 0.03)
+				tlMenu.to(element, 0.25, {y:-30, opacity:50, ease:Power2.easeIn}, index * 0.03)
 			});	
 			TweenMax.to('#ball', 0.3,{borderWidth:"2px",scale:1,backgroundColor:"rgba(0, 0, 0, 0)",opacity:1});
 			if( $('#showcase-holder').length > 0 ){
