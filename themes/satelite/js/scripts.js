@@ -210,12 +210,12 @@ Function First Load
 			$('#magic-cursor').addClass('light-content');
 			if( $('#hero').length > 0 ){						
 				if( $('#hero').hasClass("has-image")) {	
-					$("header").css('background-color', 'transparent');
+					$("header").css('background-color', 'transparent' , 'transition', 'top 0.3s');
 				} else {
-					$("header").css('background-color', 'transparent');
+					$("header").css('background-color', 'transparent', 'transition', 'top 0.3s');
 				}
 			} else {
-				$("header").css('background-color', 'transparent');
+				$("header").css('background-color', 'transparent', 'transition', 'top 0.3s');
 			}
 		} else {
 			$("main").css('background-color', '#fff');
