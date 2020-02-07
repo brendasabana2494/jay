@@ -219,7 +219,7 @@ Function First Load
 			}
 		} else {
 			$("main").css('background-color', '#fff');
-			$("nav").css('background-color', '#0f1010');
+			$("nav").css('background-color', '#0f1010', 'transition', 'top 0.3s');
 			$('#magic-cursor').removeClass('light-content');
 			if( $('#hero').length > 0 ){	
 				if( $('#hero').hasClass("has-image")) {	
