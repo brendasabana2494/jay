@@ -1248,7 +1248,7 @@ Primary use:	Showcase Portfolio
 	@media all and (min-width: 1025px) {
 	
 		.classic-menu nav {
-			position: relative;
+			position: fixed;
 			width: auto;
 			top: 0px;
 			-webkit-transition: all 0.2s ease-in-out 0.5s;
@@ -1258,14 +1258,16 @@ Primary use:	Showcase Portfolio
 			height: 60px;
 			margin: 10px 0;
 			background-color:transparent!important;
+			transition:top 0.3s;
 		}
 		
 		.flexnav {
 			display: block;
 			float: right;
-			position: relative;
+			position: fixed;
 			width: auto;
 			max-height: 60px;
+			transition:top 0.3s;
 		}
 		
 		.flexnav li ul {   
@@ -1453,12 +1455,13 @@ Primary use:	Showcase Portfolio
 		
 		.fullscreen-menu .nav-height {
 			overflow-y: scroll;
-			position: relative;
+			position: fixed;
 			height: 100%;
 			padding: 40px 0;
 			padding-right: 30px;
 			width: calc(100% + 30px);
 			box-sizing: border-box;
+			
 		}
 		
 		.fullscreen-menu nav {
@@ -1473,7 +1476,7 @@ Primary use:	Showcase Portfolio
 			opacity:0;
 			padding:20px 0;		
 			-webkit-transition: all 0.2s ease-in 0.6s;
-			transition: all 0.2s ease-in 0.6s;
+			transition:top 0.3s;
 		}
 		
 		.fullscreen-menu nav.open {
